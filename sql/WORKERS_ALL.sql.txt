@@ -1,4 +1,4 @@
-/* Create a table called WORKERS */
+--- Create a table called WORKERS
 
 CREATE TABLE WORKERS(
   ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -9,7 +9,7 @@ CREATE TABLE WORKERS(
 );
 
 
-/* Create few records in this table */
+--- Create few records in this table
 
 INSERT INTO WORKERS (TOWN, EMPLOYED, UNEMPLOYED, INACTIVE) VALUES ('BANSKO',4217,561,3125);
 INSERT INTO WORKERS (TOWN, EMPLOYED, UNEMPLOYED, INACTIVE) VALUES ('DOBRINISHTE',1219,276,981);
